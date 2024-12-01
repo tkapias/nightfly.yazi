@@ -13,7 +13,7 @@ nightfly.yazi is based on [nightfly](https://github.com/bluz71/vim-nightfly-guic
 ## 🎨 Installation
 
 ```bash
-ya pack -a tkapias/nightfly.yazi
+ya pack -a tkapias/nightfly
 ```
 
 ## ⚙️ Usage
