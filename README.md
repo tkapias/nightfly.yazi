@@ -12,18 +12,22 @@ nightfly.yazi is based on [nightfly](https://github.com/bluz71/vim-nightfly-guic
 
 ## 🎨 Installation
 
-```bash
-ya pack -a tkapias/nightfly.yazi
+```sh
+ya pkg add tkapias/nightfly
 ```
 
 ## ⚙️ Usage
 
-Add the these lines to your `theme.toml` configuration file to use it:
+To set it as your dark flavor, change the content of your `theme.toml` to:
 
 ```toml
 [flavor]
-use = "nightfly"
+dark = "nightfly"
 ```
+
+Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want to override certain styles of this flavor.
+
+See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overview) for more details.
 
 ## 📜 License
 
